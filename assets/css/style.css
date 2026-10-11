@@ -261,7 +261,7 @@ html[data-theme="dark"] .pub-item a:hover { color: #a5d3ff; }
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 28px; box-shadow: var(--shadow); margin-bottom: 32px;
 }
-.pi-photo img { width: 260px; border-radius: 14px; }
+.pi-photo img { width: 300px; border-radius: 14px; }
 .pi-info h3 { font-size: 1.3rem; letter-spacing: -.01em; }
 .pi-role { color: var(--accent); font-weight: 600; font-size: .9rem; margin: 4px 0 12px; }
 .pi-info p { color: var(--text-soft); font-size: .95rem; margin-bottom: 14px; }
@@ -405,7 +405,7 @@ html[data-theme="dark"] .pub-item a:hover { color: #a5d3ff; }
   .hero { padding: calc(var(--nav-h) + 48px) 0 64px; }
   .hero-stats { gap: 24px; }
   .pi-card { flex-direction: column; }
-  .pi-photo img { width: 200px; }
+  .pi-photo img { width: 260px; }
   .join-card { padding: 32px 24px; }
   .brand-sub { display: none; }
 }
