@@ -409,3 +409,8 @@ html[data-theme="dark"] .pub-item a:hover { color: #a5d3ff; }
   .join-card { padding: 32px 24px; }
   .brand-sub { display: none; }
 }
+
+/* ---------- Funding ---------- */
+.funding-logos { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
+.funding-logos img { display: block; width: 100%; height: auto; }
+@media (max-width: 640px) { .funding-logos { padding: 14px; } }

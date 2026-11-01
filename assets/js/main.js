@@ -94,14 +94,14 @@
     var statObs = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) {
-          stats.querySelectorAll('.stat-num').forEach(animateCount);
+          stats.querySelectorAll('.stat-num[data-count]').forEach(animateCount);
           statObs.disconnect();
         }
       });
     }, { threshold: 0.4 });
     statObs.observe(stats);
   } else if (stats) {
-    stats.querySelectorAll('.stat-num').forEach(function (el) {
+    stats.querySelectorAll('.stat-num[data-count]').forEach(function (el) {
       el.textContent = el.getAttribute('data-count');
     });
   }
