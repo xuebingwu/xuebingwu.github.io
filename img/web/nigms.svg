@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 12 330 48" width="660" height="96" role="img" aria-label="NIH National Institute of General Medical Sciences">
+  <g><path fill="#58595b"  d="M49.4,14.2H5.8c-2.2,0-3.9,1.8-3.9,4v35.6c0,2.2,1.8,4,3.9,4h43.6L61.3,36L49.4,14.2z M24,45.8h-3.5l-8.7-14.4h-0.1v14.4
+  H8.5V26.3h3.5l8.7,14.4h0.1V26.3H24V45.8z M30.7,45.8h-3.3V26.3h3.3V45.8z M46.1,45.8V37h-8.7v8.8H34V26.3h3.4v7.8h8.7v-7.8h3.3
+  v19.5H46.1z M59.7,16.8c-0.8-1.4-2.8-2.6-4.4-2.6h-3L64.2,36L52.3,57.8h3c1.6,0,3.6-1.2,4.4-2.6L70.1,36L59.7,16.8z"/>
+</g>
+  <path d="M49.4,14.2 L61.3,36 L49.4,57.8" fill="none" stroke="#c0272d" stroke-width="3.2" stroke-linejoin="round" transform="translate(2.2,0)"/>
+  <g fill="#58595b" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500">
+    <text x="74" y="32.5">National Institute of</text>
+    <text x="74" y="51.5">General Medical Sciences</text>
+  </g>
+</svg>

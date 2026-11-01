@@ -413,4 +413,8 @@ html[data-theme="dark"] .pub-item a:hover { color: #a5d3ff; }
 /* ---------- Funding ---------- */
 .funding-logos { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
 .funding-logos img { display: block; width: 100%; height: auto; }
-@media (max-width: 640px) { .funding-logos { padding: 14px; } }
+.funding-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around; gap: 20px 48px; margin-bottom: 24px; }
+.funding-row img { width: auto; height: 30px; max-width: 100%; }
+/* NIH badge sized to match the NHLBI badge in funding.webp (badge = 6.5% of image width) */
+.funding-row img.logo-nigms { width: 49%; height: auto; }
+@media (max-width: 640px) { .funding-logos { padding: 14px; } .funding-row img { height: 20px; } .funding-row img.logo-nigms { height: auto; } }
